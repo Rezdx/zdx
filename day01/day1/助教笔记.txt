@@ -1,0 +1,40 @@
+//jdk是什么
+1.jdk是我们开发最小的环境
+//jre是什么
+1.jre是我们的最小运行时环境
+// 配置环境变量
+1.jdk安装路径  JAVA_HOME
+2.类搜索路径    CLASSPATH
+3.找到bin目录   Path  
+//检测环境变量是否配置好了
+打开dos窗口
+1.输入 java -version
+2.     java
+3.     javac
+//java程序如何来写：
+
+//公共  类  名字
+//首先一个文件中只能有一个public 修饰的class   后面解释 
+//名字 不能用中文 且符合标示符的定义
+//知名知意  
+public class Dog{
+	//只是一个程序的主入口(主方法)  自动执行
+     public static void main(String[] args){
+         //系统 标准的输出语句
+		 //print 不空行输出，println 空行输出；
+         System.out.println("helloWorld");
+
+}
+//dos窗口常用的命令 --太多了
+去到根目录  某某磁盘： c:
+1.cd   去到
+2.cd.. 回到(一级一级退)
+3.cd\  退回到根目录
+4.cls  清屏
+//怎么编译运行这个java源文件
+1.编译： 编译的是源文件     ---------javac  /*编译要带上后缀*/
+2.运行： 运行的是.class文件 ---------java   
+
+
+
+
